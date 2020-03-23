@@ -154,7 +154,9 @@ public final class Expressions {
 
       if (result.length() == 0) {
         /* completely unresolved */
-        return null;
+        // return null;
+
+        return "";
       }
 
       /* return the expanded value */
